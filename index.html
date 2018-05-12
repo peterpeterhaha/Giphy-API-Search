@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Homework 6">
+        <title>Giphy Gif Search</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h1>Giphy API Search and Display</h1>
+                    </div>
+                </div>
+
+                    <div id="leftPane" class="clearfix">
+                        <div id="results">
+                            <div class="panel panel-primary">
+                                    <div class="panel-heading"><h2>Gotta Click 'em All!</h2></div>
+                                </div>
+                            <div id="searchResults"></div>
+                        </div>
+                    </div>
+                    <div id="rightPane" class="clearfix">
+                      
+                       <br>
+                        <div id="search">
+                            <input type="text" id="query">
+                            <button type="button" class="btn btn-primary btn-lg">Search</button>
+
+                        </div>
+                        <div id="history">
+                                <div class="panel panel-primary">
+                                        <div class="panel-heading">Your [Terrible] Search History</div>
+                                            </div>
+                            <div id="searchHistory"></div>
+                        </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </body>
+</html>
